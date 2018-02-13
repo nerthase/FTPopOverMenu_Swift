@@ -337,7 +337,7 @@ private class FTPopOverMenuView: UIControl {
         
         self.repositionMenuTableView()
         
-        self.drawBackgroundLayerWithArrowPoint(arrowPoint: point)
+//        self.drawBackgroundLayerWithArrowPoint(arrowPoint: point)
     }
     
     fileprivate func repositionMenuTableView() {

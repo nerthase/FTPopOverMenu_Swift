@@ -9,7 +9,7 @@
 import UIKit
 
 public class FTConfiguration : NSObject {
-
+    
     public var menuRowHeight : CGFloat = FT.DefaultMenuRowHeight
     public var menuWidth : CGFloat = FT.DefaultMenuWidth
     public var textColor : UIColor = UIColor.white
@@ -27,12 +27,15 @@ public class FTConfiguration : NSObject {
     public var globalShadow : Bool = false
     public var shadowAlpha : CGFloat = 0.6
     public var localShadow : Bool = false
-
+    public var contentInsets: UIEdgeInsets = .zero
+    public var YMargin: CGFloat = 0.0
+    
     public static var shared : FTConfiguration {
         struct StaticConfig {
             static let instance : FTConfiguration = FTConfiguration()
         }
         return StaticConfig.instance
     }
-
+    
 }
+

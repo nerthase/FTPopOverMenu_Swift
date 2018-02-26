@@ -9,7 +9,8 @@
 import UIKit
 
 struct FT {
-    internal static let DefaultMargin = CGFloat(4)
+    internal static let DefaultXMargin = CGFloat(36)
+    internal static let DefaultYMargin = CGFloat(30)
     internal static let DefaultCellMargin = CGFloat(6)
     internal static let DefaultMenuIconSize = CGFloat(24)
     internal static let DefaultMenuCornerRadius = CGFloat(4)
@@ -23,3 +24,4 @@ struct FT {
     internal static let DefaultTintColor = UIColor(red: 80/255, green: 80/255, blue: 80/255, alpha: 1)
     internal static let PopOverMenuTableViewCellIndentifier = "FTPopOverMenuTableViewCellIndentifier"
 }
+

@@ -28,7 +28,6 @@ public class FTConfiguration : NSObject {
     public var shadowAlpha : CGFloat = 0.6
     public var localShadow : Bool = false
     public var contentInsets: UIEdgeInsets = .zero
-    public var YMargin: CGFloat = 0.0
     
     public static var shared : FTConfiguration {
         struct StaticConfig {

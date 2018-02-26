@@ -317,7 +317,7 @@ private class FTPopOverMenuView: UIControl {
     
     lazy var menuTableView : UITableView = {
        let tableView = UITableView.init(frame: CGRect.zero, style: UITableViewStyle.plain)
-        tableView.backgroundColor = UIColor.clear
+        tableView.backgroundColor = UIColor.white
         tableView.delegate = self
         tableView.dataSource = self
         tableView.separatorColor = FTConfiguration.shared.menuSeparatorColor
